@@ -1,6 +1,6 @@
 package leetcode.metods;
 
-public class IsValid20 {
+public class L0020_ValidParentheses {
 
 	public boolean isValid(String s) {
 		while (s.contains("()") | s.contains("[]") | s.contains("{}")) {

@@ -1,6 +1,6 @@
 package leetcode.metods;
 
-public class IsPalindrome9 {
+public class L0009_PalindromeNumber {
 
 	public boolean isPalindrome(int x) {
         if(x < 0) return false;

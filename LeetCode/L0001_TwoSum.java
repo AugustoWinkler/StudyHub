@@ -1,6 +1,6 @@
 package leetcode.metods;
 
-public class TwoSum1 {
+public class L0001_TwoSum {
 
 	public int[] twoSum(int[] nums, int target) {
 		int[] result = new int[2];

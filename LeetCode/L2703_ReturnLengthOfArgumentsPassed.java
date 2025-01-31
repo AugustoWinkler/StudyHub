@@ -1,6 +1,6 @@
 package leetcode.metods;
 
-public class ScoreOfAString3110 {
+public class L2703_ReturnLengthOfArgumentsPassed {
 
 	public int scoreOfString(String s) {
 		int sum = 0;

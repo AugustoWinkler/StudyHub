@@ -1,6 +1,6 @@
 package leetcode.metods;
 
-public class PlusOne66 {
+public class L0066_PlusOne {
 
 	public static int[] plusOne(int[] digits) {
 		for (int i = digits.length - 1; i >= 0; i--) {
