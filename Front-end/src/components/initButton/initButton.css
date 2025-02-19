@@ -1,0 +1,112 @@
+.Border006 {
+    margin-top: 32px;
+    overflow: hidden;
+    position: relative;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.3);
+    justify-content: center;
+    align-items: center;
+    & span {
+      position: absolute;
+      border-radius: 100vmax;
+    }
+  }
+  .Border006:hover{
+    scale: 1.05;
+    transition: 0.3s ease;
+  }
+
+  .top006 {
+    top: 0;
+    left: 0;
+    height: 4px;
+    background-color: cyan;
+  }
+  
+  .bottom006 {
+    right: 0;
+    bottom: 0;
+    height: 4px;
+    background-color: cyan;
+  }
+  
+  .right006 {
+    top: 0;
+    right: 0;
+    width: 4px;
+    height: 100%;
+    background-color: cyan;
+  }
+  
+  .left006 {
+    left: 0;
+    bottom: 0;
+    width: 4px;
+    height: 100%;
+    background-color: cyan;
+  }
+  
+  .top006 {
+    animation: animateTop006 4s linear infinite;
+    animation-delay: 2s;
+  }
+  
+  .bottom006 {
+    animation: animateBottom006 4s linear infinite;
+    animation-delay: 2s;
+  }
+  
+  .right006 {
+    animation: animateRight006 4s linear infinite;
+    animation-delay: 0s;
+  }
+  
+  .left006 {
+    animation: animateLeft006 4s linear infinite;
+    animation-delay: 0s;
+  }
+
+  @keyframes animateTop006 {
+    0% {
+      width: 100%;
+      left: -100%;
+    }
+    100% {
+      width: 100%;
+      left: 100%;
+    }
+  }
+  
+  @keyframes animateBottom006 {
+    0% {
+      width: 100%;
+      left: 100%;
+    }
+    100% {
+      width: 100%;
+      left: -100%;
+    }
+  }
+  
+  
+  @keyframes animateRight006 {
+    0% {
+      top: -100%;
+    }
+  
+    100% {
+      top: 100%;
+    }
+  }
+  
+  @keyframes animateLeft006 {
+    0% {
+      top: 100%;
+    }
+  
+    100% {
+      top: -100%;
+    }
+  }
