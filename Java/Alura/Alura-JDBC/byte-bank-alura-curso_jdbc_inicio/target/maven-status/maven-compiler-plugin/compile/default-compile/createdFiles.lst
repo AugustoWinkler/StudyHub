@@ -1,9 +1,0 @@
-br\com\alura\bytebank\domain\cliente\DadosCadastroCliente.class
-br\com\alura\bytebank\domain\conta\Conta.class
-br\com\alura\bytebank\domain\cliente\Cliente.class
-br\com\alura\bytebank\domain\RegraDeNegocioException.class
-br\com\alura\bytebank\domain\conta\ContaDAO.class
-br\com\alura\bytebank\domain\conta\ContaService.class
-br\com\alura\bytebank\domain\conta\DadosAberturaConta.class
-br\com\alura\bytebank\BytebankApplication.class
-br\com\alura\bytebank\ConnectionFactory.class
