@@ -1,6 +1,5 @@
 package dioambiente.desafio10;
 
-import java.util.Collections;
 import java.util.HashSet;
 import java.util.Set;
 import java.util.TreeSet;
